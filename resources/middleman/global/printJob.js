@@ -15,7 +15,7 @@ middleman.printJob = function () {
         newWindow.document.write('<script defer src="resources/backend/vendors/html2canvas.min.js"></script>');
 
         newWindow.document.write('</head><body id="capture">');
-        newWindow.document.write('<div class="buttons"><button class="ok" onclick="window.print()">Print (for PDF)</button> <button class="ok" id="captureButton">Create PNG</button></div>');
+        newWindow.document.write('<div class="buttons"><button class="ok" id="captureButton">Create PNG</button></div>');
         newWindow.document.write('<div class="banner">');
         newWindow.document.write(pageDate.head);
 
