@@ -1,4 +1,4 @@
-# np_csv_converter
+# np_csv_converter BETA
 
 Project by RY Jarnovk and SushiInHell
 
