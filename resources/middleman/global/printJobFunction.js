@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             button.style.display = 'none';
             help.style.display = 'none';
-            npConImg.style.backgroundImage = '';
+            npConImg.style.backgroundImage = 'none';
             npConInfo.style.opacity = '0';
             footer.style.display = 'none';
             hide.forEach(function (div) {
