@@ -63,7 +63,7 @@ middleman.popupHelp = (function () {
 
     async function fetchMarkdown(file) {
         const apiUrl = `https://api.github.com/repos/SushiInGit/np_csv_converter/contents/resources/help/${file}`;
-        
+
         try {
             const response = await fetch(apiUrl, {
                 headers: { 'Accept': 'application/vnd.github.v3.raw' }
@@ -90,7 +90,7 @@ middleman.popupHelp = (function () {
         tocContainer.innerHTML = '';
 
         const contentDiv = document.getElementById('markdownContent');
-        const headers = contentDiv.querySelectorAll("h1, h2, h3, strong");
+        const headers = contentDiv.querySelectorAll("h3, strong");
 
         headers.forEach(header => {
             const tocItem = document.createElement("div");
