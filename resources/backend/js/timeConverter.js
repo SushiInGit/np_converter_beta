@@ -155,10 +155,11 @@ function processTimestamp(timestamp) {
             diffInMinutes += 60;  
         } else if (useOffset === 'false') {
             diffInMinutes -= 60;   
-        } else {
-            diffInMinutes = 0;
+        } else if (useOffset === 'auto') {
+            diffInMinutes += 0;
         }
         const adjustedTime = date.getTime() + (diffInMinutes * 60000);
+
         const adjustedDate = new Date(adjustedTime);
 
         const offsetHours = Math.floor(Math.abs(diffInMinutes) / 60);
