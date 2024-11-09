@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NP Converter Beta</title>
+    <style>
+        /* Dark mode styling */
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        img {
+            width: 350px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0 0 15px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://raw.githubusercontent.com/SushiInGit/np_csv_converter/refs/heads/main/resources/frontend/image/chibiAI.png">
+    <h2>NP Converter - Beta Access Closed</h2>
+    <p>The beta period has ended. Please use the main URL for the latest updates.</p>
+    <a href="https://sushiingit.github.io/np_csv_converter/" class="button">Go to Live Version</a>
+</body>
+</html>
